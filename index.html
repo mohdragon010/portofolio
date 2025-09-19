@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ayman - Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="terminal-loader">
+            <div class="loader-text">
+                <span class="typing-loader"></span>
+                <span class="cursor">|</span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Header -->
+        <header class="header">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="terminal-prompt">$</span> Mohamed<span class="cursor-blink">_</span>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#home" class="nav-link">./home</a></li>
+                        <li><a href="#about" class="nav-link">./about</a></li>
+                        <li><a href="#experience" class="nav-link">./experience</a></li>
+                        <li><a href="#projects" class="nav-link">./projects</a></li>
+                        <li><a href="#skills" class="nav-link">./skills</a></li>
+                        <li><a href="#contact" class="nav-link">./contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn close"></span>
+                                <span class="btn minimize"></span>
+                                <span class="btn maximize"></span>
+                            </div>
+                            <div class="terminal-title">mohamed@portfolio:~$</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> whoami
+                            </div>
+                            <div class="terminal-output">
+                                <h1 class="hero-name">Mohamed Ayman</h1>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> cat role.txt
+                            </div>
+                            <div class="terminal-output">
+                                <p class="hero-role">I'm a <span class="typing-role"></span></p>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> ls skills/
+                            </div>
+                            <div class="terminal-output">
+                                <div class="typing-text">
+                                    <span class="typing-skills"></span><span class="cursor-blink">|</span>
+                                </div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> <span class="cursor-blink">_</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#contact" class="cta-button primary">
+                            <i class="fas fa-terminal"></i> Get in Touch
+                        </a>
+                        <a href="#" class="cta-button secondary">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-animation">
+                        <div class="code-lines">
+                            <div class="code-line">const developer = {</div>
+                            <div class="code-line">  name: 'Mohamed Ayman',</div>
+                            <div class="code-line">  skills: ['HTML', 'CSS', 'JS'],</div>
+                            <div class="code-line">  passion: 'Problem Solving'</div>
+                            <div class="code-line">};</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> cat about.md
+                    </h2>
+                    <div class="section-subtitle">Getting to know me</div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-container">
+                            <div class="profile-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-user"></i>
+                                    <span>MA</span>
+                                </div>
+                            </div>
+                            <div class="image-overlay">
+                                <div class="status-indicator">
+                                    <span class="status-dot"></span>
+                                    Available for work
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <div class="terminal-content">
+                            <div class="about-description">
+                                <h3>Mohamed Ayman</h3>
+                                <p>I'm a passionate student with a strong interest in software development, coding, and problem-solving. I thrive on challenges that push me to think critically and creatively, always eager to explore new technologies and innovative solutions.</p>
+                                
+                                <p>With experience in programming languages like Python and JavaScript, I enjoy working on projects that enhance my skills and contribute to real-world applications. My goal is to develop impactful software solutions that make a difference in the tech industry.</p>
+                                
+                                <p>I'm always open to learning, collaborating, and taking on new opportunities. Let's build something amazing together!</p>
+                            </div>
+                            <div class="about-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">10+</span>
+                                    <span class="stat-label">Projects Completed</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">2+</span>
+                                    <span class="stat-label">Years Learning</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-label">Technologies</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+            <!-- Certifications Section -->
+            <section class="certifications section" id="certifications">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <span class="terminal-prompt">$</span> ls certifications/
+                        </h2>
+                        <div class="section-subtitle">My certifications & achievements</div>
+                    </div>
+                    <div class="certifications-grid">
+                        <div class="cert-card">
+                            <div class="cert-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h3>Responsive Web Design</h3>
+                                <p class="cert-org">By FreeCodeCamp.org</p>
+                                <span class="cert-date">2025</span>
+                                <p class="cert-desc">Responsive Web Design Certification — freeCodeCamp
+Completed a 300-hour curriculum focused on HTML, CSS, and responsive design principles to build accessible, mobile-first websites.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="experience section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> git log --oneline
+                    </h2>
+                    <div class="section-subtitle">My development journey</div>
+                </div>
+                <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"><i class="fas fa-play"></i></div>
+                            <div class="timeline-content">
+                                <h3>Programming Foundation</h3>
+                                <span class="timeline-date">2022</span>
+                                <p>Started my coding journey with HTML, CSS, and JavaScript. Built my first static websites and learned the fundamentals of web development.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"><i class="fas fa-code"></i></div>
+                            <div class="timeline-content">
+                                <h3>Interactive Development</h3>
+                                <span class="timeline-date">2023</span>
+                                <p>Advanced to building dynamic applications with JavaScript. Created interactive projects like calculators, games, and API-integrated apps.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"><i class="fas fa-rocket"></i></div>
+                            <div class="timeline-content">
+                                <h3>Modern Web Development</h3>
+                                <span class="timeline-date">2024</span>
+                                <p>Focusing on responsive design, user experience, and modern development practices. Building professional-grade applications and expanding my tech stack.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> ls projects/
+                    </h2>
+                    <div class="section-subtitle">Things I've built</div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/calculator.png" alt="Calculator App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/calculator" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/calculator" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Calculator</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                </div>
+                            </div>
+                            <p>A fully functional calculator with modern UI design. Features basic arithmetic operations with responsive design and smooth animations.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/calculator" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/pizzaland.png" alt="PizzaLand Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/PizzaLand" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/PizzaLand" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>PizzaLand</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                </div>
+                            </div>
+                            <p>A modern pizza restaurant website with interactive menu, ordering system, and beautiful animations. Features responsive design and smooth user experience.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/PizzaLand" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/car.png" alt="Car Landing Page">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/Car-Landing-Page" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/Car-Landing-Page" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Car Landing Page</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                </div>
+                            </div>
+                            <p>A sleek automotive landing page showcasing luxury cars with stunning visuals, smooth scrolling effects, and modern design principles.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/Car-Landing-Page" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/jokes.png" alt="Jokes App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/jokes" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/jokes" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Jokes Generator</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                    <span class="tech-tag">API</span>
+                                </div>
+                            </div>
+                            <p>A fun jokes generator app that fetches random jokes from an API. Features clean UI, loading animations, and category filtering.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/Jokes" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/randomuser.png" alt="Random User Generator">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/RandomUser" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/RandomUser" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Random User Generator</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                    <span class="tech-tag">API</span>
+                                </div>
+                            </div>
+                            <p>Generate random user profiles with photos, names, and details using external API. Features modern card design and smooth transitions.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/RandomUser" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/todo.png" alt="Todo List App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/TodoList" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/TodoList" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Todo List</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                </div>
+                            </div>
+                            <p>A productivity todo list app with add, edit, delete, and mark complete functionality. Features local storage and intuitive user interface.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/TodoList" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/tictactoe.png" alt="Tic Tac Toe Game">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mohdragon010.github.io/TicTacToe" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mohdragon010/TicTacToe" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Tic Tac Toe</h3>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JS</span>
+                                </div>
+                            </div>
+                            <p>Classic Tic Tac Toe game with modern design, win detection, score tracking, and smooth animations. Features two-player gameplay.</p>
+                            <div class="project-footer">
+                                <a href="https://mohdragon010.github.io/TicTacToe" class="view-project-btn" target="_blank">
+                                    <span>View Project</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> cat skills.json
+                    </h2>
+                    <div class="section-subtitle">My technical arsenal</div>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn close"></span>
+                                <span class="btn minimize"></span>
+                                <span class="btn maximize"></span>
+                            </div>
+                            <div class="terminal-title">skills.json</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Frontend</h3>
+                                    <div class="skill-items">
+                                        <div class="skill-item">
+                                            <div class="skill-info">
+                                                <i class="fab fa-html5"></i>
+                                                <span>HTML</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="progress-bar" data-progress="90"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-info">
+                                                <i class="fab fa-css3-alt"></i>
+                                                <span>CSS</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="progress-bar" data-progress="85"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-info">
+                                                <i class="fab fa-js-square"></i>
+                                                <span>JavaScript</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="progress-bar" data-progress="80"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> ls services/
+                    </h2>
+                    <div class="section-subtitle">What I can do for you</div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive and interactive websites using modern HTML, CSS, and JavaScript technologies.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Building websites that work perfectly on all devices, from desktop to mobile phones.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3>Problem Solving</h3>
+                        <p>Analyzing complex problems and creating efficient solutions through clean, maintainable code.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> cat achievements.log
+                    </h2>
+                    <div class="section-subtitle">Milestones & accomplishments</div>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>10+ Projects Completed</h3>
+                            <p>Successfully built and deployed various web applications</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Self-Taught Developer</h3>
+                            <p>Learned programming through dedication and continuous practice</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Growing Portfolio</h3>
+                            <p>Constantly expanding skills and building new projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section" id="testimonials">
+            <div class="container">
+                <div class="testimonials-grid">
+                    <!-- Testimonials content removed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="terminal-prompt">$</span> ./contact.sh
+                    </h2>
+                    <div class="section-subtitle">Let's work together</div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="btn close"></span>
+                                    <span class="btn minimize"></span>
+                                    <span class="btn maximize"></span>
+                                </div>
+                                <div class="terminal-title">contact-info.txt</div>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>mohammed.ayman152433@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+201027118875</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Egypt</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" action="https://formsubmit.co/mohammed.ayman152433@gmail.com" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="cta-button primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://wa.me/+201027118875" class="social-link whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="tooltip">WhatsApp</span>
+                    </a>
+                    <a href="https://www.instagram.com/mohh.1_/" class="social-link instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span class="tooltip">Instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com/mohamed.ayman.119778/" class="social-link facebook" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                        <span class="tooltip">Facebook</span>
+                    </a>
+                    <a href="https://github.com/mohdragon010" class="social-link github" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <span class="terminal-prompt">$</span> Mohamed Ayman
+                        </div>
+                        <p>&copy; 2024 Mohamed Ayman. All rights reserved.</p>
+                    </div>
+                    <div class="footer-right">
+                        <nav class="footer-nav">
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#contact">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="terminal-line">
+                        <span class="prompt">$</span> echo "Thanks for visiting my portfolio!"
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
